@@ -2,7 +2,7 @@ package no.hvl.dat100.matriser;
 
 public class Matriser {
 
-    // a) Skriver ut matrisen med to utvidede for-løkker
+    // a) 
     public static void skrivUt(int[][] matrise) {
         for (int[] rad : matrise) {
             for (int tall : rad) {
@@ -11,8 +11,8 @@ public class Matriser {
             System.out.println();
         }
     }
+// b)
 
-    // b) Lager tekst med mellomrom etter hvert tall og linjeskift etter hver rad
     public static String tilStreng(int[][] matrise) {
         String tekst = "";
 
@@ -26,7 +26,7 @@ public class Matriser {
         return tekst;
     }
 
-    // c) Lager en ny matrise der hvert element multipliseres med tall
+			// c) 
     public static int[][] skaler(int tall, int[][] matrise) {
         int[][] resultat = new int[matrise.length][];
 
